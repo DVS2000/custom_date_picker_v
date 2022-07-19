@@ -12,29 +12,29 @@ String formattedMonth(
   final _isEnglish = (language ?? NepaliUtils().language) == Language.english;
   switch (month) {
     case 1:
-      return _isEnglish ? 'Baishakh' : 'बैशाख';
+      return _isEnglish ? 'Janeiro' : 'बैशाख';
     case 2:
-      return _isEnglish ? 'Jestha' : 'जेष्ठ';
+      return _isEnglish ? 'Fevereiro' : 'जेष्ठ';
     case 3:
-      return _isEnglish ? 'Ashadh' : 'अषाढ';
+      return _isEnglish ? 'Março' : 'अषाढ';
     case 4:
-      return _isEnglish ? 'Shrawan' : 'श्रावण';
+      return _isEnglish ? 'Abril' : 'श्रावण';
     case 5:
-      return _isEnglish ? 'Bhadra' : 'भाद्र';
+      return _isEnglish ? 'Maio' : 'भाद्र';
     case 6:
-      return _isEnglish ? 'Ashwin' : 'आश्विन';
+      return _isEnglish ? 'Junho' : 'आश्विन';
     case 7:
-      return _isEnglish ? 'Kartik' : 'कार्तिक';
+      return _isEnglish ? 'Julho' : 'कार्तिक';
     case 8:
-      return _isEnglish ? 'Mangsir' : 'मंसिर';
+      return _isEnglish ? 'Agosto' : 'मंसिर';
     case 9:
-      return _isEnglish ? 'Poush' : 'पौष';
+      return _isEnglish ? 'Setembro' : 'पौष';
     case 10:
-      return _isEnglish ? 'Magh' : 'माघ';
+      return _isEnglish ? 'Outubro' : 'माघ';
     case 11:
-      return _isEnglish ? 'Falgun' : 'फाल्गुन';
+      return _isEnglish ? 'Novembro' : 'फाल्गुन';
     case 12:
-      return _isEnglish ? 'Chaitra' : 'चैत्र';
+      return _isEnglish ? 'Dezembro' : 'चैत्र';
     default:
       return '';
   }
